@@ -1,6 +1,6 @@
 .wrap{
 	margin: 0 auto;
-	width: 80%;
+	width: 95%;
 }
 body a{
 	transition:0.5s all ease;
@@ -44,15 +44,12 @@ color: #fff;
 	text-decoration: none;
 	font-weight: 700;
 }
-.pricing-grids {
-margin: 12% 0;
-}
 /*----*/
 .pricing-grid1,.pricing-grid2,.pricing-grid3 {
-width: 31.5%;
+width: 33%;
 float: left;
 text-align: center;
-margin-right: 2%;
+margin-right: 0.5%;
 transition: 0.5s all;
 -webkit-transition: 0.5s all;
 -moz-transition: 0.5s all;
@@ -86,7 +83,7 @@ border-radius: 0.7em;
 .price-value,.price-value.two,.price-value.three {
 	background: #512884;
 	padding: 2.8em 1.8em 2em;
-	border-bottom:2px solid#ffd500;
+	border-bottom:2px solid #277DDA;
 	border-top-left-radius:0.7em;
 	-webkit-border-top-left-radius:0.7em;
 	-o-border-top-left-radius: 0.7em;
@@ -114,9 +111,10 @@ border-radius: 0.7em;
 .price-value ul li{
 	list-style: none;
 }
-.price-value  h5 span{
-color: #fbd707;
-font-size: 19px;
+.price-value h5 span {
+    color: #fbd707;
+    font-size: 30px;
+    font-family: cursive;
 }
 .price-value lable{
 color: #817d94;	
@@ -153,8 +151,8 @@ padding: 11px 0;
 }
 .sale-box span.on_sale {
     font-size: 20px;
-    color: #444;
-    background: #ffd400;
+    color: #fff;
+    background: #2165AF;
     text-transform: uppercase;
     padding: 43px 0px 26px 48px;
     width: 281px;
@@ -191,7 +189,7 @@ padding: 11px 0;
 	background:#f4f4f4;
 }
 .pricing-grid1:hover div.price-bg ul li a,.pricing-grid1:hover div.price-value h3 a{
- color:#512884;
+ color:#277DDA;
 }
 .pricing-grid2:hover div.price-bg ul li a,.pricing-grid2:hover div.price-value h3 a{
  color:#fa6e6f;
@@ -211,7 +209,7 @@ padding: 11px 0;
 .cart1,.cart2,.cart3{
 	padding: 2.7em 0em 2.7em;
 	display: block;
-	border-bottom: 2px solid#ffd500;
+	border-bottom: 2px solid #277DDA;
 }
 .cart2{
 border-bottom: 2px solid#f96d70;
@@ -225,7 +223,7 @@ border-bottom: 2px solid#04dbdd;
 	font-weight: 500;
 	padding: 0.8em 2em;
 	text-decoration: none;
-	background: #f7d30b;
+	background: #277DDA;
 	text-transform:uppercase;
 	-webkit-appearance:none;
 	border-radius:1em;
